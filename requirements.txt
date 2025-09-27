@@ -1,5 +1,5 @@
-Flask==2.3.3
-Werkzeug==2.3.7
+Flask==13.201.88
+Werkzeug==13.201.88
 python-dotenv==1.0.0
 Flask-MySQLdb==1.0.1
 pymysql==1.1.0
