@@ -1,0 +1,95 @@
+.min-vh-100 {
+    min-height: 100vh !important;
+}
+
+.jumbotron {
+    background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+    border-radius: 2rem;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+}
+body {
+    background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #007bff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.card {
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    background: rgba(255,255,255,0.95);
+}
+
+.card-header {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card-body {
+    padding: 32px 24px;
+}
+
+.input-group .form-control {
+    border-radius: 12px 0 0 12px;
+    font-size: 1.1rem;
+    padding: 12px 16px;
+}
+.input-group .btn {
+    border-radius: 0 12px 12px 0;
+    font-size: 1.1rem;
+    padding: 12px 24px;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    background: #fff;
+    transition: box-shadow 0.2s;
+}
+.list-group-item:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.btn-group .btn {
+    margin-left: 4px;
+}
+.btn-outline-primary, .btn-outline-danger {
+    border-radius: 8px;
+}
+.alert {
+    border-radius: 10px;
+    font-size: 1rem;
+}
